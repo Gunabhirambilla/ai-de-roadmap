@@ -70,6 +70,13 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Stamp asset versions so browsers load the new files
+        if: steps.commit.outputs.changed == 'true' || github.event_name != 'schedule'
+        run: |
+          v="${{ github.run_number }}"
+          sed -i "s#href=\"styles.css\"#href=\"styles.css?v=$v\"#; s#src=\"app.js\"#src=\"app.js?v=$v\"#" index.html
+          grep -n "?v=" index.html
+
       - name: Package site
         if: steps.commit.outputs.changed == 'true' || github.event_name != 'schedule'
         uses: actions/upload-pages-artifact@v3
