@@ -79,7 +79,7 @@ function build(data) {
   $("skill").innerHTML = `<option value="">All skills</option>` + skills.map(s => `<option>${esc(s)}</option>`).join("");
 
   const ago = rel(Date.parse(data.synced_at));
-  $("synced").innerHTML = data.synced_at ? `Updated from Notion <b>${ago}</b>, checks hourly` : "Synced from Notion";
+  $("synced").innerHTML = data.synced_at ? `Updated from Notion <b>${ago}</b>, syncs daily at 5 PM ET` : "Synced from Notion";
   $("source").href = data.source || PAGE_LINK;
 }
 

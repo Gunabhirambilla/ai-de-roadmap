@@ -7,7 +7,7 @@ An interactive, zoomable view of my 52-week AI data engineering roadmap. The sou
 ## How it updates
 
 1. I update a week in Notion (Status, Actual Hours, Confidence).
-2. Every hour, the `Sync from Notion` GitHub Action runs `scripts/sync_notion.py`, which reads the Roadmap Tracker database and the skills table and writes `data.json`.
+2. Every day at 5:00 PM Eastern, the `Sync from Notion` GitHub Action runs `scripts/sync_notion.py`, which reads the Roadmap Tracker database and the skills table and writes `data.json`.
 3. If anything changed, the action commits `data.json` and redeploys GitHub Pages.
 
 For an instant refresh: **Actions → Sync from Notion → Run workflow**.
@@ -36,6 +36,6 @@ For an instant refresh: **Actions → Sync from Notion → Run workflow**.
 | `index.html`, `styles.css`, `app.js` | The page. No build step, no dependencies. |
 | `data.json` | Snapshot of the Notion roadmap, written by the sync. |
 | `scripts/sync_notion.py` | Notion API → `data.json`. Python standard library only. |
-| `.github/workflows/sync.yml` | Hourly sync, commit and Pages deploy. |
+| `.github/workflows/sync.yml` | Daily 5 PM Eastern sync, commit and Pages deploy. |
 
 Run the sync locally with `NOTION_TOKEN=secret_xxx python scripts/sync_notion.py`.
