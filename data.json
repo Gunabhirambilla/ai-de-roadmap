@@ -1,0 +1,1520 @@
+{
+ "source": "https://app.notion.com/p/3f093ebae4ea81df8a17c98fe1486406",
+ "items": [
+  {
+   "id": "3f093ebae4ea81d68c22ddb6c6988bcc",
+   "task": "W01 · Setup + Python basics",
+   "type": "📚 Learn",
+   "week": 1,
+   "status": "In progress",
+   "start": "2026-10-05",
+   "end": "2026-10-11",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Python",
+    "Git/Linux",
+    "DSA"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81e581f0ce0a6be9c0e8",
+   "task": "🛠️ P1 Project · API ingestion tool",
+   "type": "🛠️ Project",
+   "week": null,
+   "status": "Not started",
+   "start": "2026-10-10",
+   "end": "2026-11-29",
+   "est": null,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Python",
+    "SQL",
+    "Portfolio"
+   ],
+   "notes": "Hours are logged in the weekly rows (Saturday builds)."
+  },
+  {
+   "id": "3f093ebae4ea81a9b808d4f7a4c156c4",
+   "task": "W02 · Functions, files, errors",
+   "type": "📚 Learn",
+   "week": 2,
+   "status": "Not started",
+   "start": "2026-10-12",
+   "end": "2026-10-18",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Python",
+    "DSA"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81b98da9e5229db7bca3",
+   "task": "W03 · Writing real code (OOP, typing, logging)",
+   "type": "📚 Learn",
+   "week": 3,
+   "status": "Not started",
+   "start": "2026-10-19",
+   "end": "2026-10-25",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Python",
+    "DSA"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81c883d0c91dbe351d39",
+   "task": "W04 · Python for data (pandas, Polars, DuckDB)",
+   "type": "📚 Learn",
+   "week": 4,
+   "status": "Not started",
+   "start": "2026-10-26",
+   "end": "2026-11-01",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Python",
+    "File Formats",
+    "DSA"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea819db1f4cf76f3e62b54",
+   "task": "🔁 Monthly check-in · November",
+   "type": "🔁 Check-in",
+   "week": null,
+   "status": "Not started",
+   "start": "2026-11-01",
+   "end": null,
+   "est": 1,
+   "actual": null,
+   "confidence": null,
+   "skills": [],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81bbae32ff3dc4fc4cf0",
+   "task": "W05 · APIs + databases from Python",
+   "type": "📚 Learn",
+   "week": 5,
+   "status": "Not started",
+   "start": "2026-11-02",
+   "end": "2026-11-08",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Python",
+    "SQL",
+    "DSA"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea8154958ef9528e0d432e",
+   "task": "W06 · Engineering quality (tests, packaging, CLI)",
+   "type": "📚 Learn",
+   "week": 6,
+   "status": "Not started",
+   "start": "2026-11-09",
+   "end": "2026-11-15",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Python",
+    "DSA"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea8189bde0e5710a1ff894",
+   "task": "W07 · Concurrency + advanced SQL I",
+   "type": "📚 Learn",
+   "week": 7,
+   "status": "Not started",
+   "start": "2026-11-16",
+   "end": "2026-11-22",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Python",
+    "SQL",
+    "DSA"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81078c04ceee4ad72e57",
+   "task": "W08 · Advanced SQL II + project finish",
+   "type": "📚 Learn",
+   "week": 8,
+   "status": "Not started",
+   "start": "2026-11-23",
+   "end": "2026-11-29",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "SQL",
+    "DSA"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81a194cadc29b48ebc8d",
+   "task": "🎯 P1 Checkpoint · Python + SQL",
+   "type": "🎯 Checkpoint",
+   "week": null,
+   "status": "Not started",
+   "start": "2026-11-29",
+   "end": null,
+   "est": 3,
+   "actual": null,
+   "confidence": null,
+   "skills": [],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81e28519dfbfaa5c1f6e",
+   "task": "W09 · Dimensional modeling (Kimball)",
+   "type": "📚 Learn",
+   "week": 9,
+   "status": "Not started",
+   "start": "2026-11-30",
+   "end": "2026-12-06",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Data Modeling",
+    "SQL",
+    "DSA"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81a99d3afe77d6cb0618",
+   "task": "🛠️ P2 Project · Local lakehouse",
+   "type": "🛠️ Project",
+   "week": null,
+   "status": "Not started",
+   "start": "2026-12-05",
+   "end": "2027-01-10",
+   "est": null,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Lakehouse",
+    "Data Modeling",
+    "NoSQL",
+    "Portfolio"
+   ],
+   "notes": "Hours are logged in the weekly rows (Saturday builds)."
+  },
+  {
+   "id": "3f093ebae4ea81af87e9c3d3f1daa7ae",
+   "task": "🔁 Monthly check-in · December",
+   "type": "🔁 Check-in",
+   "week": null,
+   "status": "Not started",
+   "start": "2026-12-06",
+   "end": null,
+   "est": 1,
+   "actual": null,
+   "confidence": null,
+   "skills": [],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81c3a6bfc4e43dddba8b",
+   "task": "W10 · Modern modeling patterns",
+   "type": "📚 Learn",
+   "week": 10,
+   "status": "Not started",
+   "start": "2026-12-07",
+   "end": "2026-12-13",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Data Modeling",
+    "DSA"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea816fad2fd448a7217a7d",
+   "task": "W11 · File formats internals",
+   "type": "📚 Learn",
+   "week": 11,
+   "status": "Not started",
+   "start": "2026-12-14",
+   "end": "2026-12-20",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "File Formats",
+    "DSA"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81d0aee0db7ea156db2d",
+   "task": "W12 · Lakes and lakehouses",
+   "type": "📚 Learn",
+   "week": 12,
+   "status": "Not started",
+   "start": "2026-12-21",
+   "end": "2026-12-27",
+   "est": 10,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Lakehouse",
+    "DSA"
+   ],
+   "notes": "Holiday week — lighter target."
+  },
+  {
+   "id": "3f093ebae4ea817c9d4bc74edfd2e747",
+   "task": "W13 · Performance layout (partitioning, clustering, compaction)",
+   "type": "📚 Learn",
+   "week": 13,
+   "status": "Not started",
+   "start": "2026-12-28",
+   "end": "2027-01-03",
+   "est": 10,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Lakehouse",
+    "SQL",
+    "DSA"
+   ],
+   "notes": "Holiday week — lighter target."
+  },
+  {
+   "id": "3f093ebae4ea81d09d83c5a9e496dc47",
+   "task": "🔁 Monthly check-in · January",
+   "type": "🔁 Check-in",
+   "week": null,
+   "status": "Not started",
+   "start": "2027-01-03",
+   "end": null,
+   "est": 1,
+   "actual": null,
+   "confidence": null,
+   "skills": [],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81159ffed6dc4c192cd4",
+   "task": "W14 · NoSQL",
+   "type": "📚 Learn",
+   "week": 14,
+   "status": "Not started",
+   "start": "2027-01-04",
+   "end": "2027-01-10",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "NoSQL",
+    "DSA"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81a080f3c127ede093a6",
+   "task": "🎯 P2 Checkpoint · Storage + modeling",
+   "type": "🎯 Checkpoint",
+   "week": null,
+   "status": "Not started",
+   "start": "2027-01-10",
+   "end": null,
+   "est": 3,
+   "actual": null,
+   "confidence": null,
+   "skills": [],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea810ca238cbc141cdd1ad",
+   "task": "W15 · Pipeline patterns",
+   "type": "📚 Learn",
+   "week": 15,
+   "status": "Not started",
+   "start": "2027-01-11",
+   "end": "2027-01-17",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "System Design",
+    "DSA"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81fe9b1bc7809b535313",
+   "task": "🛠️ P3 Project · Batch + streaming platform",
+   "type": "🛠️ Project",
+   "week": null,
+   "status": "Not started",
+   "start": "2027-01-16",
+   "end": "2027-03-07",
+   "est": null,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Spark",
+    "Airflow",
+    "dbt",
+    "Kafka/Streaming",
+    "Portfolio"
+   ],
+   "notes": "Hours are logged in the weekly rows (Saturday builds)."
+  },
+  {
+   "id": "3f093ebae4ea816d9433e6684febb19e",
+   "task": "W16 · Spark I (architecture, DataFrames, shuffles)",
+   "type": "📚 Learn",
+   "week": 16,
+   "status": "Not started",
+   "start": "2027-01-18",
+   "end": "2027-01-24",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Spark",
+    "DSA",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81648e4ecc60e8b261e6",
+   "task": "W17 · Spark II (joins, skew, Spark SQL, streaming)",
+   "type": "📚 Learn",
+   "week": 17,
+   "status": "Not started",
+   "start": "2027-01-25",
+   "end": "2027-01-31",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Spark",
+    "Lakehouse",
+    "DSA",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea814c9554da8d07ba7362",
+   "task": "W18 · Orchestration (Airflow, Dagster)",
+   "type": "📚 Learn",
+   "week": 18,
+   "status": "Not started",
+   "start": "2027-02-01",
+   "end": "2027-02-07",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Airflow",
+    "DSA",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81cfa4d4d65ebc58dd87",
+   "task": "🔁 Monthly check-in · February",
+   "type": "🔁 Check-in",
+   "week": null,
+   "status": "Not started",
+   "start": "2027-02-07",
+   "end": null,
+   "est": 1,
+   "actual": null,
+   "confidence": null,
+   "skills": [],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea8149b895d4b671437473",
+   "task": "W19 · dbt",
+   "type": "📚 Learn",
+   "week": 19,
+   "status": "Not started",
+   "start": "2027-02-08",
+   "end": "2027-02-14",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "dbt",
+    "SQL",
+    "DSA",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea816e930ee309d388d3d5",
+   "task": "W20 · Kafka core",
+   "type": "📚 Learn",
+   "week": 20,
+   "status": "Not started",
+   "start": "2027-02-15",
+   "end": "2027-02-21",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Kafka/Streaming",
+    "DSA",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea8160917ac68c229fee6e",
+   "task": "W21 · Streaming + CDC end-to-end",
+   "type": "📚 Learn",
+   "week": 21,
+   "status": "Not started",
+   "start": "2027-02-22",
+   "end": "2027-02-28",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Kafka/Streaming",
+    "Spark",
+    "DSA",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea8183aa72e44b2ff5e23a",
+   "task": "W22 · Contracts, data tests + project finish",
+   "type": "📚 Learn",
+   "week": 22,
+   "status": "Not started",
+   "start": "2027-03-01",
+   "end": "2027-03-07",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Data Quality",
+    "dbt",
+    "DSA",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81979b8cde5e7efed909",
+   "task": "🎯 P3 Checkpoint · Core data engineering",
+   "type": "🎯 Checkpoint",
+   "week": null,
+   "status": "Not started",
+   "start": "2027-03-07",
+   "end": null,
+   "est": 3,
+   "actual": null,
+   "confidence": null,
+   "skills": [],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea8146bea2fe42bf6cd9e7",
+   "task": "🔁 Monthly check-in · March",
+   "type": "🔁 Check-in",
+   "week": null,
+   "status": "Not started",
+   "start": "2027-03-07",
+   "end": null,
+   "est": 1,
+   "actual": null,
+   "confidence": null,
+   "skills": [],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81868300f4915fadb03f",
+   "task": "W23 · Cloud fundamentals (AWS)",
+   "type": "📚 Learn",
+   "week": 23,
+   "status": "Not started",
+   "start": "2027-03-08",
+   "end": "2027-03-14",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "AWS",
+    "DSA",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea8185b865f8d59afe4d3c",
+   "task": "🛠️ P4 Project · Deploy platform to AWS",
+   "type": "🛠️ Project",
+   "week": null,
+   "status": "Not started",
+   "start": "2027-03-13",
+   "end": "2027-04-18",
+   "est": null,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "AWS",
+    "Terraform",
+    "Docker/K8s",
+    "CI/CD",
+    "Portfolio"
+   ],
+   "notes": "Hours are logged in the weekly rows (Saturday builds)."
+  },
+  {
+   "id": "3f093ebae4ea81c9a6e6ec8c8c266d91",
+   "task": "W24 · AWS data services",
+   "type": "📚 Learn",
+   "week": 24,
+   "status": "Not started",
+   "start": "2027-03-15",
+   "end": "2027-03-21",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "AWS",
+    "DSA",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81ebaaede86dffe6d0ef",
+   "task": "W25 · Docker",
+   "type": "📚 Learn",
+   "week": 25,
+   "status": "Not started",
+   "start": "2027-03-22",
+   "end": "2027-03-28",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Docker/K8s",
+    "DSA",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81bd8f19e9f6cfc07aaa",
+   "task": "W26 · Kubernetes basics + Terraform",
+   "type": "📚 Learn",
+   "week": 26,
+   "status": "Not started",
+   "start": "2027-03-29",
+   "end": "2027-04-04",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Docker/K8s",
+    "Terraform",
+    "DSA",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea816a8a34e2698685b801",
+   "task": "🔁 Monthly check-in · April",
+   "type": "🔁 Check-in",
+   "week": null,
+   "status": "Not started",
+   "start": "2027-04-04",
+   "end": null,
+   "est": 1,
+   "actual": null,
+   "confidence": null,
+   "skills": [],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea811b8d42f1da3fb7f63b",
+   "task": "W27 · CI/CD",
+   "type": "📚 Learn",
+   "week": 27,
+   "status": "Not started",
+   "start": "2027-04-05",
+   "end": "2027-04-11",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "CI/CD",
+    "dbt",
+    "DSA",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81688d39c8f223882515",
+   "task": "W28 · Cost, security + deployment wrap-up",
+   "type": "📚 Learn",
+   "week": 28,
+   "status": "Not started",
+   "start": "2027-04-12",
+   "end": "2027-04-18",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "AWS",
+    "DSA",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea812aa382d67358095a82",
+   "task": "🎯 P4 Checkpoint · Cloud + infra",
+   "type": "🎯 Checkpoint",
+   "week": null,
+   "status": "Not started",
+   "start": "2027-04-18",
+   "end": null,
+   "est": 3,
+   "actual": null,
+   "confidence": null,
+   "skills": [],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81eea3d8e962e3b3ca84",
+   "task": "W29 · Statistics",
+   "type": "📚 Learn",
+   "week": 29,
+   "status": "Not started",
+   "start": "2027-04-19",
+   "end": "2027-04-25",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Statistics",
+    "DSA",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea815eb667f843455010f4",
+   "task": "🛠️ P5 Project · End-to-end ML data pipeline",
+   "type": "🛠️ Project",
+   "week": null,
+   "status": "Not started",
+   "start": "2027-04-24",
+   "end": "2027-06-13",
+   "est": null,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "ML",
+    "MLOps",
+    "Portfolio"
+   ],
+   "notes": "Hours are logged in the weekly rows (Saturday builds)."
+  },
+  {
+   "id": "3f093ebae4ea8196970fea491418d8c2",
+   "task": "🏅 AWS Certified Data Engineer – Associate (optional)",
+   "type": "🏅 Certification",
+   "week": null,
+   "status": "Not started",
+   "start": "2027-04-24",
+   "end": null,
+   "est": 8,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "AWS"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81e28646ce0265c7ee5a",
+   "task": "W30 · Linear algebra + probability for ML",
+   "type": "📚 Learn",
+   "week": 30,
+   "status": "Not started",
+   "start": "2027-04-26",
+   "end": "2027-05-02",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Statistics",
+    "ML",
+    "DSA",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81f1906bec4c5e450a21",
+   "task": "🔁 Monthly check-in · May",
+   "type": "🔁 Check-in",
+   "week": null,
+   "status": "Not started",
+   "start": "2027-05-02",
+   "end": null,
+   "est": 1,
+   "actual": null,
+   "confidence": null,
+   "skills": [],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea816f9823e3c43a07d5c8",
+   "task": "W31 · Classical ML (scikit-learn)",
+   "type": "📚 Learn",
+   "week": 31,
+   "status": "Not started",
+   "start": "2027-05-03",
+   "end": "2027-05-09",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "ML",
+    "DSA",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea8146bdb5c9002cded332",
+   "task": "W32 · Deep learning + transformers intuition",
+   "type": "📚 Learn",
+   "week": 32,
+   "status": "Not started",
+   "start": "2027-05-10",
+   "end": "2027-05-16",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "ML",
+    "LLM",
+    "DSA",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81d4a84bcfe76b112e05",
+   "task": "W33 · ML data engineering (feature stores, PIT joins)",
+   "type": "📚 Learn",
+   "week": 33,
+   "status": "Not started",
+   "start": "2027-05-17",
+   "end": "2027-05-23",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "MLOps",
+    "ML",
+    "Lakehouse",
+    "DSA",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81fb861bc3d08791c3dc",
+   "task": "W34 · MLOps (MLflow, registry, serving)",
+   "type": "📚 Learn",
+   "week": 34,
+   "status": "Not started",
+   "start": "2027-05-24",
+   "end": "2027-05-30",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "MLOps",
+    "Docker/K8s",
+    "DSA",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea814cb286de00577a80f1",
+   "task": "W35 · Monitoring + distributed ML data",
+   "type": "📚 Learn",
+   "week": 35,
+   "status": "Not started",
+   "start": "2027-05-31",
+   "end": "2027-06-06",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "MLOps",
+    "Data Quality",
+    "DSA",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea818fb383e5c537b8a639",
+   "task": "🔁 Monthly check-in · June",
+   "type": "🔁 Check-in",
+   "week": null,
+   "status": "Not started",
+   "start": "2027-06-06",
+   "end": null,
+   "est": 1,
+   "actual": null,
+   "confidence": null,
+   "skills": [],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea812ab2c6c8cc96a7536c",
+   "task": "W36 · ML project finish",
+   "type": "📚 Learn",
+   "week": 36,
+   "status": "Not started",
+   "start": "2027-06-07",
+   "end": "2027-06-13",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "MLOps",
+    "Portfolio",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81639fdedc622c3566e6",
+   "task": "🎯 P5 Checkpoint · Math, ML + MLOps",
+   "type": "🎯 Checkpoint",
+   "week": null,
+   "status": "Not started",
+   "start": "2027-06-13",
+   "end": null,
+   "est": 3,
+   "actual": null,
+   "confidence": null,
+   "skills": [],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81e9b91acc377b4b4b03",
+   "task": "W37 · LLM fundamentals for engineers",
+   "type": "📚 Learn",
+   "week": 37,
+   "status": "Not started",
+   "start": "2027-06-14",
+   "end": "2027-06-20",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "LLM",
+    "Python",
+    "DSA",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea812b896de0b91998dcab",
+   "task": "🛠️ P6 Project · Production-style RAG with evals",
+   "type": "🛠️ Project",
+   "week": null,
+   "status": "Not started",
+   "start": "2027-06-19",
+   "end": "2027-08-08",
+   "est": null,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "RAG",
+    "Vector DB",
+    "Evals",
+    "LLM",
+    "Portfolio"
+   ],
+   "notes": "Hours are logged in the weekly rows (Saturday builds)."
+  },
+  {
+   "id": "3f093ebae4ea8165b877d8a2eb025701",
+   "task": "W38 · Unstructured data processing",
+   "type": "📚 Learn",
+   "week": 38,
+   "status": "Not started",
+   "start": "2027-06-21",
+   "end": "2027-06-27",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "LLM",
+    "Python",
+    "Governance",
+    "DSA"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81b391c6e745fa1130dd",
+   "task": "W39 · Embeddings + vector search",
+   "type": "📚 Learn",
+   "week": 39,
+   "status": "Not started",
+   "start": "2027-06-28",
+   "end": "2027-07-04",
+   "est": 12,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Vector DB",
+    "LLM",
+    "DSA"
+   ],
+   "notes": "July 4 holiday week."
+  },
+  {
+   "id": "3f093ebae4ea81f6864ee1e31bcbf7ec",
+   "task": "🔁 Monthly check-in · July",
+   "type": "🔁 Check-in",
+   "week": null,
+   "status": "Not started",
+   "start": "2027-07-04",
+   "end": null,
+   "est": 1,
+   "actual": null,
+   "confidence": null,
+   "skills": [],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81549e62f487ab4093a4",
+   "task": "W40 · Retrieval-augmented generation (RAG)",
+   "type": "📚 Learn",
+   "week": 40,
+   "status": "Not started",
+   "start": "2027-07-05",
+   "end": "2027-07-11",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "RAG",
+    "LLM",
+    "Vector DB",
+    "DSA",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81f48819d568f4bed35a",
+   "task": "W41 · LLM evaluation + observability",
+   "type": "📚 Learn",
+   "week": 41,
+   "status": "Not started",
+   "start": "2027-07-12",
+   "end": "2027-07-18",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Evals",
+    "RAG",
+    "CI/CD",
+    "DSA"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea813987c0c5c599136627",
+   "task": "W42 · LLMs inside data pipelines",
+   "type": "📚 Learn",
+   "week": 42,
+   "status": "Not started",
+   "start": "2027-07-19",
+   "end": "2027-07-25",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "LLM",
+    "Spark",
+    "Airflow",
+    "DSA",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea8116bd50c864617ddc5c",
+   "task": "W43 · Agents, MCP, fine-tuning data, safety",
+   "type": "📚 Learn",
+   "week": 43,
+   "status": "Not started",
+   "start": "2027-07-26",
+   "end": "2027-08-01",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "LLM",
+    "Governance",
+    "DSA",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81ea936dc63645c42d77",
+   "task": "🔁 Monthly check-in · August",
+   "type": "🔁 Check-in",
+   "week": null,
+   "status": "Not started",
+   "start": "2027-08-01",
+   "end": null,
+   "est": 1,
+   "actual": null,
+   "confidence": null,
+   "skills": [],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea8125970ed5997f22a974",
+   "task": "W44 · RAG project finish",
+   "type": "📚 Learn",
+   "week": 44,
+   "status": "Not started",
+   "start": "2027-08-02",
+   "end": "2027-08-08",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "RAG",
+    "Portfolio",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81708169dcdeb29de3e3",
+   "task": "🎯 P6 Checkpoint · LLM + GenAI DE",
+   "type": "🎯 Checkpoint",
+   "week": null,
+   "status": "Not started",
+   "start": "2027-08-08",
+   "end": null,
+   "est": 3,
+   "actual": null,
+   "confidence": null,
+   "skills": [],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea811f9358c0e73c7f0136",
+   "task": "W45 · Data quality",
+   "type": "📚 Learn",
+   "week": 45,
+   "status": "Not started",
+   "start": "2027-08-09",
+   "end": "2027-08-15",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Data Quality",
+    "dbt",
+    "DSA",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea818fa512fd80c4e612d5",
+   "task": "🛠️ P7 Project · Governance layer",
+   "type": "🛠️ Project",
+   "week": null,
+   "status": "Not started",
+   "start": "2027-08-14",
+   "end": "2027-09-05",
+   "est": null,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Data Quality",
+    "Governance",
+    "Portfolio"
+   ],
+   "notes": "Hours are logged in the weekly rows (Saturday builds)."
+  },
+  {
+   "id": "3f093ebae4ea81de989edd653c72da76",
+   "task": "W46 · Observability + lineage",
+   "type": "📚 Learn",
+   "week": 46,
+   "status": "Not started",
+   "start": "2027-08-16",
+   "end": "2027-08-22",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Data Quality",
+    "Governance",
+    "DSA",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81489522de2564c0543c",
+   "task": "W47 · Governance + privacy",
+   "type": "📚 Learn",
+   "week": 47,
+   "status": "Not started",
+   "start": "2027-08-23",
+   "end": "2027-08-29",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Governance",
+    "DSA",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea817b86dcd8f05c977e26",
+   "task": "W48 · AI governance",
+   "type": "📚 Learn",
+   "week": 48,
+   "status": "Not started",
+   "start": "2027-08-30",
+   "end": "2027-09-05",
+   "est": 12,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Governance",
+    "LLM",
+    "DSA"
+   ],
+   "notes": "Labor Day weekend."
+  },
+  {
+   "id": "3f093ebae4ea815da5bee56a7febe251",
+   "task": "🎯 P7 Checkpoint · Quality + governance",
+   "type": "🎯 Checkpoint",
+   "week": null,
+   "status": "Not started",
+   "start": "2027-09-05",
+   "end": null,
+   "est": 3,
+   "actual": null,
+   "confidence": null,
+   "skills": [],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea818a8181c00302b03c83",
+   "task": "🔁 Monthly check-in · September",
+   "type": "🔁 Check-in",
+   "week": null,
+   "status": "Not started",
+   "start": "2027-09-05",
+   "end": null,
+   "est": 1,
+   "actual": null,
+   "confidence": null,
+   "skills": [],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81259217ef0f9bb606b7",
+   "task": "🛠️ P8 Capstone · AI data platform",
+   "type": "🛠️ Project",
+   "week": null,
+   "status": "Not started",
+   "start": "2027-09-06",
+   "end": "2027-09-19",
+   "est": null,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Portfolio",
+    "System Design",
+    "RAG",
+    "MLOps",
+    "Kafka/Streaming"
+   ],
+   "notes": "Hours are logged in the weekly rows (Saturday builds)."
+  },
+  {
+   "id": "3f093ebae4ea81d1b195eb36eb6c9eb7",
+   "task": "W49 · System design framework + practice",
+   "type": "📚 Learn",
+   "week": 49,
+   "status": "Not started",
+   "start": "2027-09-06",
+   "end": "2027-09-12",
+   "est": 14,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "System Design",
+    "Interview"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea815d9a3dc2690027ef81",
+   "task": "W50 · Capstone build",
+   "type": "📚 Learn",
+   "week": 50,
+   "status": "Not started",
+   "start": "2027-09-13",
+   "end": "2027-09-19",
+   "est": 15,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Portfolio",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea817aac8de8e95a7af43e",
+   "task": "W51 · Portfolio, resume, LinkedIn",
+   "type": "📚 Learn",
+   "week": 51,
+   "status": "Not started",
+   "start": "2027-09-20",
+   "end": "2027-09-26",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Portfolio",
+    "Interview",
+    "System Design"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81f38609c2070301bb73",
+   "task": "W52 · Mock interviews",
+   "type": "📚 Learn",
+   "week": 52,
+   "status": "Not started",
+   "start": "2027-09-27",
+   "end": "2027-10-03",
+   "est": 13,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "Interview",
+    "SQL",
+    "Python",
+    "System Design",
+    "DSA"
+   ],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81e089b7f1c09cdec9f1",
+   "task": "🎯 Final Checkpoint · Job-ready",
+   "type": "🎯 Checkpoint",
+   "week": null,
+   "status": "Not started",
+   "start": "2027-10-03",
+   "end": null,
+   "est": 3,
+   "actual": null,
+   "confidence": null,
+   "skills": [],
+   "notes": null
+  },
+  {
+   "id": "3f093ebae4ea81de8e3ce0cbfdb84642",
+   "task": "🔁 Final review · October",
+   "type": "🔁 Check-in",
+   "week": null,
+   "status": "Not started",
+   "start": "2027-10-03",
+   "end": null,
+   "est": 1,
+   "actual": null,
+   "confidence": null,
+   "skills": [],
+   "notes": null
+  }
+ ],
+ "skills": [
+  {
+   "area": "Computer fundamentals",
+   "now": "Known",
+   "target": "Maintain",
+   "covered": "Phase 1 (Git + Linux refresh only)"
+  },
+  {
+   "area": "Python",
+   "now": "20%",
+   "target": "85%",
+   "covered": "Phase 1"
+  },
+  {
+   "area": "SQL",
+   "now": "80%",
+   "target": "95%",
+   "covered": "Phase 1"
+  },
+  {
+   "area": "Math and statistics",
+   "now": "0%",
+   "target": "60% (working level)",
+   "covered": "Phase 5"
+  },
+  {
+   "area": "Relational databases",
+   "now": "100%",
+   "target": "Maintain",
+   "covered": "—"
+  },
+  {
+   "area": "Data modeling",
+   "now": "50%",
+   "target": "85%",
+   "covered": "Phase 2"
+  },
+  {
+   "area": "NoSQL",
+   "now": "0%",
+   "target": "60%",
+   "covered": "Phase 2"
+  },
+  {
+   "area": "File formats",
+   "now": "50%",
+   "target": "90%",
+   "covered": "Phase 2"
+  },
+  {
+   "area": "Data lakes and lakehouses",
+   "now": "50%",
+   "target": "85%",
+   "covered": "Phase 2"
+  },
+  {
+   "area": "Partitioning, clustering, indexing, compaction",
+   "now": "20%",
+   "target": "80%",
+   "covered": "Phase 2"
+  },
+  {
+   "area": "Core data engineering",
+   "now": "10%",
+   "target": "85%",
+   "covered": "Phase 3"
+  },
+  {
+   "area": "Cloud and infrastructure",
+   "now": "0%",
+   "target": "70%",
+   "covered": "Phase 4"
+  },
+  {
+   "area": "ML foundations",
+   "now": "0%",
+   "target": "60%",
+   "covered": "Phase 5"
+  },
+  {
+   "area": "ML data engineering",
+   "now": "0%",
+   "target": "75%",
+   "covered": "Phase 5"
+  },
+  {
+   "area": "MLOps",
+   "now": "0%",
+   "target": "65%",
+   "covered": "Phase 5"
+  },
+  {
+   "area": "LLM and GenAI data engineering",
+   "now": "0%",
+   "target": "85%",
+   "covered": "Phase 6"
+  },
+  {
+   "area": "Data quality, governance, observability",
+   "now": "0%",
+   "target": "75%",
+   "covered": "Phase 3 (testing) + Phase 7"
+  },
+  {
+   "area": "System design",
+   "now": "10%",
+   "target": "80%",
+   "covered": "Weekly thread from Phase 3 + Phase 8"
+  },
+  {
+   "area": "Analytics and BI",
+   "now": "90%",
+   "target": "Maintain",
+   "covered": "Used inside projects only"
+  }
+ ],
+ "synced_at": "2026-11-06T18:05:00Z"
+}
