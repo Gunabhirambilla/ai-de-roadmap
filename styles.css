@@ -168,3 +168,24 @@ aside { display: grid; gap: 16px; min-width: 0; }
 .stat .k { font-size: 13px; color: var(--muted); }
 .error { padding: 18px; color: var(--warn); }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+/* checklist under the chart */
+.todo { margin-top: 6px; }
+.todo-head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 10px 16px; padding: 16px 18px 12px; border-bottom: 1.5px solid var(--line); }
+.todo-head h3 { font-family: var(--display); font-weight: 800; font-size: 22px; line-height: 1.15; letter-spacing: -.01em; margin: 4px 0 0; text-wrap: balance; }
+.todo-prog { display: grid; gap: 6px; min-width: 180px; flex: 0 1 240px; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.todo-prog b { color: var(--ink); }
+.todo-groups { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 4px 28px; padding: 14px 18px 6px; }
+.todo-group h4 { margin: 4px 0 6px; font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); display: flex; justify-content: space-between; gap: 8px; }
+.todo-group h4 span { color: var(--muted); font-weight: 600; letter-spacing: 0; text-transform: none; font-variant-numeric: tabular-nums; }
+.todo-list { list-style: none; margin: 0 0 12px; padding: 0; display: grid; gap: 2px; }
+.todo-list li { display: grid; grid-template-columns: 20px minmax(0, 1fr); gap: 10px; align-items: start; padding: 6px 0; font-size: 14.5px; line-height: 1.4; border-bottom: 1px dashed var(--line); }
+.todo-list li:last-child { border-bottom: 0; }
+.box { width: 18px; height: 18px; margin-top: 1px; border-radius: 5px; border: 2px solid var(--muted); display: grid; place-items: center; background: var(--surface); }
+.box.dot { border: 0; background: transparent; }
+.box.dot::after { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--muted); }
+.done .box { background: var(--accent); border-color: var(--accent); }
+.done .box::after { content: ""; width: 9px; height: 5px; border: 2px solid var(--surface); border-top: 0; border-right: 0; transform: translateY(-1px) rotate(-45deg); }
+.done .txt { color: var(--muted); text-decoration: line-through; text-decoration-color: var(--idle); }
+.todo-foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px; padding: 4px 18px 16px; font-size: 13px; color: var(--muted); }
+.todo-empty { padding: 16px 18px; color: var(--muted); margin: 0; }

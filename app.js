@@ -613,6 +613,7 @@ function renderDetail() {
         <dt>Planned</dt><dd>${w.est != null ? w.est + " h" : "Not set"}</dd>
         <dt>Logged</dt><dd>${hrs(w.actual)}</dd>
         <dt>Confidence</dt><dd>${esc(w.confidence || "Not rated")}</dd>
+        ${(w.checklist || []).length ? `<dt>Checklist</dt><dd>${countDone(w.checklist).done} of ${countDone(w.checklist).total} done</dd>` : ""}
       </dl>
       <div class="chips">${(w.skills || []).filter(s => !threads.includes(s)).map(s => `<button type="button" class="chip${filters.skill === s ? " on" : ""}" data-skill="${esc(s)}" title="Show every week with ${esc(s)}">${esc(s)}</button>`).join("")}</div>
       ${threads.length ? `<p>Weekly threads: ${threads.map(t => t === "DSA" ? "Python/DSA practice" : "system design reading").join(", ")}.</p>` : ""}
@@ -752,7 +753,72 @@ function select(s) {
   } catch (_) {}
   refresh();
 }
-function refresh() { render(); renderDetail(); renderStrip(); }
+function refresh() { render(); renderDetail(); renderStrip(); renderTodo(); }
+
+/* ---------------- checklist under the chart ---------------- */
+const todoEl = $("todo");
+const countDone = list => {
+  const boxes = (list || []).filter(i => i.done !== null && i.done !== undefined);
+  return { done: boxes.filter(i => i.done).length, total: boxes.length };
+};
+function checklistHtml(list, sectionPrefix) {
+  const groups = [];
+  (list || []).forEach(i => {
+    const name = (sectionPrefix ? sectionPrefix + ": " : "") + (i.section || "To do");
+    let g = groups.find(x => x.name === name);
+    if (!g) groups.push(g = { name, items: [] });
+    g.items.push(i);
+  });
+  return groups.map(g => {
+    const c = countDone(g.items);
+    return `<div class="todo-group"><h4>${esc(g.name)}${c.total ? `<span>${c.done}/${c.total}</span>` : ""}</h4>
+      <ul class="todo-list">${g.items.map(i => `<li class="${i.done ? "done" : ""}"><span class="box${i.done == null ? " dot" : ""}" aria-hidden="true"></span><span class="txt">${esc(i.text)}${i.done != null ? `<span class="sr">${i.done ? ", done" : ", not done"}</span>` : ""}</span></li>`).join("")}</ul></div>`;
+  }).join("");
+}
+function progressHtml(c) {
+  if (!c.total) return "";
+  const pct = Math.round(c.done / c.total * 100);
+  return `<div class="todo-prog"><span><b>${c.done} of ${c.total}</b> done${pct ? `, ${pct}%` : ""}</span>
+    <div class="track"><span class="fill${c.done < c.total ? " go" : ""}" style="width:${pct}%"></span></div></div>`;
+}
+const SYNC_NOTE = "Tick items off in Notion. The page picks them up at the next sync, daily at 5 PM ET.";
+function renderTodo() {
+  let h = "";
+  if (sel.kind === "week") {
+    const w = weeks[sel.n - 1]; if (!w) return;
+    const list = w.checklist || [];
+    h = `<div class="todo-head"><div><div class="eyebrow">What to do, week ${pad(w.n)}</div>
+        <h3>${esc(w.title)}</h3></div>${progressHtml(countDone(list))}</div>
+      ${list.length ? `<div class="todo-groups">${checklistHtml(list)}</div>` : `<p class="todo-empty">This week's Notion page has no checklist yet.</p>`}
+      <div class="todo-foot"><span>${SYNC_NOTE}</span><a class="btn primary" href="${notion(w.id)}" target="_blank" rel="noopener">Open week in Notion</a></div>`;
+  } else if (sel.kind === "phase") {
+    const p = PHASES[sel.n - 1], pr = projects[p.n], cp = checkpoints[p.n];
+    const list = [...(pr && pr.checklist || []).map(i => ({ ...i, _k: "Project" })), ...(cp && cp.checklist || []).map(i => ({ ...i, _k: "Checkpoint" }))];
+    h = `<div class="todo-head"><div><div class="eyebrow">What to do, phase ${pad(p.n)}</div>
+        <h3>${esc(pr ? pr.title : p.name)}</h3></div>${progressHtml(countDone(list))}</div>
+      ${list.length ? `<div class="todo-groups">${checklistHtml(pr && pr.checklist, "Project")}${checklistHtml(cp && cp.checklist, "Checkpoint")}</div>`
+        : `<p class="todo-empty">The project and checkpoint pages have no checklist yet.</p>`}
+      <div class="todo-foot"><span>Pick a week on the curve to see its own list.</span>
+        <span class="actions">${pr ? `<a class="btn primary" href="${notion(pr.id)}" target="_blank" rel="noopener">Open project</a>` : ""}${cp ? `<a class="btn" href="${notion(cp.id)}" target="_blank" rel="noopener">Open checkpoint</a>` : ""}</span></div>`;
+  } else {
+    const ws = weeks.filter(w => { const d = new Date(w.startMs); return d.getUTCMonth() === sel.m && d.getUTCFullYear() === sel.y; });
+    const all = ws.flatMap(w => w.checklist || []);
+    h = `<div class="todo-head"><div><div class="eyebrow">What to do, ${MON[sel.m]} ${sel.y}</div>
+        <h3>${ws.length} week${ws.length === 1 ? "" : "s"} of work</h3></div>${progressHtml(countDone(all))}</div>
+      <div class="todo-groups">${ws.map(w => {
+        const c = countDone(w.checklist);
+        return `<div class="todo-group"><h4>W${pad(w.n)} ${esc(w.title)}${c.total ? `<span>${c.done}/${c.total}</span>` : ""}</h4>
+          <ul class="todo-list">${(w.checklist || []).slice(0, 4).map(i => `<li class="${i.done ? "done" : ""}"><span class="box${i.done == null ? " dot" : ""}" aria-hidden="true"></span><span class="txt">${esc(i.text)}</span></li>`).join("")}
+          ${(w.checklist || []).length > 4 ? `<li><span></span><button class="btn" type="button" data-week="${w.n}">Show all ${(w.checklist || []).length}</button></li>` : ""}</ul></div>`;
+      }).join("")}</div>
+      <div class="todo-foot"><span>${SYNC_NOTE}</span></div>`;
+  }
+  todoEl.innerHTML = h;
+}
+todoEl.addEventListener("click", e => {
+  const b = e.target.closest("[data-week]"); if (!b) return;
+  select({ kind: "week", n: +b.dataset.week }); ensureVisible(+b.dataset.week);
+});
 
 let qTimer;
 $("search").addEventListener("input", e => { clearTimeout(qTimer); qTimer = setTimeout(() => { filters.q = e.target.value.trim(); refresh(); }, 120); });

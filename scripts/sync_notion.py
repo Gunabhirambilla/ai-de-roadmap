@@ -114,6 +114,28 @@ def children(block_id, token):
         cursor = res["next_cursor"]
 
 
+CHECK_TYPES = {"to_do", "bulleted_list_item", "numbered_list_item"}
+HEAD_TYPES = {"heading_1", "heading_2", "heading_3"}
+
+
+def fetch_checklist(page_id, token):
+    """Headings and checkbox/bullet items from a roadmap row's page body."""
+    out, section = [], None
+    for b in children(page_id, token):
+        t = b["type"]
+        if t in HEAD_TYPES:
+            section = plain(b[t].get("rich_text")) or None
+        elif t in CHECK_TYPES:
+            text = plain(b[t].get("rich_text"))
+            if text:
+                out.append({
+                    "section": section,
+                    "text": text,
+                    "done": bool(b[t].get("checked")) if t == "to_do" else None,
+                })
+    return out
+
+
 def fetch_skills(token):
     """Read the 'Skill area | Now | Target | Covered in' table, if present."""
     for block in children(PAGE_ID, token):
@@ -139,9 +161,14 @@ def main():
             "NOTION_TOKEN is not set. Add it as a repository secret "
             "(Settings > Secrets and variables > Actions)."
         )
+    items = fetch_items(token)
+    for item in items:
+        # Notion allows about 3 requests a second
+        item["checklist"] = fetch_checklist(item["id"], token)
+        time.sleep(0.35)
     content = {
         "source": f"https://app.notion.com/p/{PAGE_ID}",
-        "items": fetch_items(token),
+        "items": items,
         "skills": fetch_skills(token),
     }
     old = {}
