@@ -184,7 +184,11 @@
    "est": 3,
    "actual": null,
    "confidence": null,
-   "skills": [],
+   "skills": [
+    "Python",
+    "SQL",
+    "DSA"
+   ],
    "notes": null
   },
   {
@@ -349,7 +353,11 @@
    "est": 3,
    "actual": null,
    "confidence": null,
-   "skills": [],
+   "skills": [
+    "Data Modeling",
+    "Lakehouse",
+    "NoSQL"
+   ],
    "notes": null
   },
   {
@@ -544,7 +552,12 @@
    "est": 3,
    "actual": null,
    "confidence": null,
-   "skills": [],
+   "skills": [
+    "Spark",
+    "Kafka/Streaming",
+    "dbt",
+    "System Design"
+   ],
    "notes": null
   },
   {
@@ -716,7 +729,11 @@
    "est": 3,
    "actual": null,
    "confidence": null,
-   "skills": [],
+   "skills": [
+    "AWS",
+    "Docker/K8s",
+    "Terraform"
+   ],
    "notes": null
   },
   {
@@ -738,6 +755,22 @@
    "notes": null
   },
   {
+   "id": "3f093ebae4ea8196970fea491418d8c2",
+   "task": "🏅 AWS Certified Data Engineer – Associate (optional)",
+   "type": "🏅 Certification",
+   "week": null,
+   "status": "Not started",
+   "start": "2027-04-24",
+   "end": null,
+   "est": 8,
+   "actual": null,
+   "confidence": null,
+   "skills": [
+    "AWS"
+   ],
+   "notes": null
+  },
+  {
    "id": "3f093ebae4ea815eb667f843455010f4",
    "task": "🛠️ P5 Project · End-to-end ML data pipeline",
    "type": "🛠️ Project",
@@ -754,22 +787,6 @@
     "Portfolio"
    ],
    "notes": "Hours are logged in the weekly rows (Saturday builds)."
-  },
-  {
-   "id": "3f093ebae4ea8196970fea491418d8c2",
-   "task": "🏅 AWS Certified Data Engineer – Associate (optional)",
-   "type": "🏅 Certification",
-   "week": null,
-   "status": "Not started",
-   "start": "2027-04-24",
-   "end": null,
-   "est": 8,
-   "actual": null,
-   "confidence": null,
-   "skills": [
-    "AWS"
-   ],
-   "notes": null
   },
   {
    "id": "3f093ebae4ea81e28646ce0265c7ee5a",
@@ -942,7 +959,12 @@
    "est": 3,
    "actual": null,
    "confidence": null,
-   "skills": [],
+   "skills": [
+    "Statistics",
+    "ML",
+    "MLOps",
+    "System Design"
+   ],
    "notes": null
   },
   {
@@ -1156,7 +1178,12 @@
    "est": 3,
    "actual": null,
    "confidence": null,
-   "skills": [],
+   "skills": [
+    "RAG",
+    "Vector DB",
+    "Evals",
+    "LLM"
+   ],
    "notes": null
   },
   {
@@ -1259,10 +1286,13 @@
    "status": "Not started",
    "start": "2027-09-05",
    "end": null,
-   "est": 3,
+   "est": 2,
    "actual": null,
    "confidence": null,
-   "skills": [],
+   "skills": [
+    "Data Quality",
+    "Governance"
+   ],
    "notes": null
   },
   {
@@ -1297,7 +1327,7 @@
     "MLOps",
     "Kafka/Streaming"
    ],
-   "notes": "Hours are logged in the weekly rows (Saturday builds)."
+   "notes": "Hours are logged in the weekly rows."
   },
   {
    "id": "3f093ebae4ea81d1b195eb36eb6c9eb7",
@@ -1346,8 +1376,7 @@
    "confidence": null,
    "skills": [
     "Portfolio",
-    "Interview",
-    "System Design"
+    "Interview"
    ],
    "notes": null
   },
@@ -1382,7 +1411,11 @@
    "est": 3,
    "actual": null,
    "confidence": null,
-   "skills": [],
+   "skills": [
+    "System Design",
+    "Interview",
+    "Portfolio"
+   ],
    "notes": null
   },
   {
@@ -1516,5 +1549,5 @@
    "covered": "Used inside projects only"
   }
  ],
- "synced_at": "2026-11-06T18:05:00Z"
+ "synced_at": "2026-11-06T21:43:00Z"
 }
