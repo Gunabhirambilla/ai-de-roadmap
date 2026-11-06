@@ -73,7 +73,10 @@ function build(data) {
   });
   skillsTable = data.skills || [];
   activeWeek = (weeks.find(w => w.status === "In progress") || weeks.find(w => !isDone(w.status)) || weeks[weeks.length - 1]).n;
-  calWeek = Math.min(N, Math.max(1, Math.floor((Date.now() - START) / WEEK) + 1));
+  // 0 before the plan starts, so nothing is marked as "this week" yet
+  calWeek = Date.now() < START ? 0 : Math.min(N, Math.floor((Date.now() - START) / WEEK) + 1);
+  const last = weeks[weeks.length - 1];
+  $("range").textContent = `${fmt(START, true)} to ${fmt(last.startMs + 6 * DAY, true)}`;
 
   const skills = [...new Set(weeks.flatMap(w => w.skills || []))].sort();
   $("skill").innerHTML = `<option value="">All skills</option>` + skills.map(s => `<option>${esc(s)}</option>`).join("");
@@ -728,10 +731,12 @@ function renderStats() {
   const planned = weeks.reduce((a, w) => a + (w.est || 0), 0), logged = weeks.reduce((a, w) => a + (w.actual || 0), 0);
   const nextCp = Object.values(checkpoints).filter(c => !isDone(c.status) && c.start).sort((a, b) => a.start.localeCompare(b.start))[0];
   const gap = calWeek - activeWeek;
+  const pace = calWeek === 0 ? [fmt(START), "Plan starts"]
+    : [gap > 0 ? `${gap} wk` : "On pace", gap > 0 ? `Behind the calendar (W${pad(calWeek)})` : `Calendar is at W${pad(calWeek)}`];
   $("stats").innerHTML = [
     ["W" + pad(activeWeek), "Current week in Notion"],
     [`${done} / ${N}`, "Weeks done"],
-    [gap > 0 ? `${gap} wk` : "On pace", gap > 0 ? `Behind the calendar (W${pad(calWeek)})` : `Calendar is at W${pad(calWeek)}`],
+    pace,
     [`${logged} h`, `Logged of ${planned} planned`],
     [nextCp ? fmt(parseDate(nextCp.start)) : "None", "Next checkpoint"]
   ].map(([v, k]) => `<div class="stat"><span class="v">${v}</span><span class="k">${k}</span></div>`).join("");
@@ -763,14 +768,14 @@ $("status").addEventListener("change", e => { filters.status = e.target.value; r
 $("zoomIn").addEventListener("click", () => zoomAt(0.6, sel.kind === "week" ? sel.n - 0.5 : null, true));
 $("zoomOut").addEventListener("click", () => zoomAt(1 / 0.6, null, true));
 $("fit").addEventListener("click", () => setView(0, N, true));
-$("today").addEventListener("click", () => { select({ kind: "week", n: calWeek }); zoomToWeek(calWeek); });
+$("today").addEventListener("click", () => { select({ kind: "week", n: calWeek || 1 }); zoomToWeek(calWeek || 1); });
 
 document.addEventListener("keydown", e => {
   if (e.target.closest("input, select, textarea") || e.metaKey || e.ctrlKey || e.altKey) return;
   if (e.key === "+" || e.key === "=") { zoomAt(0.6, sel.kind === "week" ? sel.n - 0.5 : null, true); }
   else if (e.key === "-" || e.key === "_") { zoomAt(1 / 0.6, null, true); }
   else if (e.key === "0") { setView(0, N, true); }
-  else if (e.key.toLowerCase() === "t") { select({ kind: "week", n: calWeek }); zoomToWeek(calWeek); }
+  else if (e.key.toLowerCase() === "t") { select({ kind: "week", n: calWeek || 1 }); zoomToWeek(calWeek || 1); }
   else if ((e.key === "ArrowRight" || e.key === "ArrowLeft") && !e.target.closest("#brush")) {
     e.preventDefault();
     const base = sel.kind === "week" ? sel.n : activeWeek;
