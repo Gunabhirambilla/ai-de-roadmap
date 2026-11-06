@@ -17,7 +17,54 @@
     "Git/Linux",
     "DSA"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Install Python 3.12+, VS Code, uv; create a virtual environment",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Git refresh: branch, commit, rebase vs merge, PRs, conflicts",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Linux refresh: pipes, grep/sed/awk, permissions, env vars, cron",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Types, strings, f-strings, list/tuple/dict/set",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Control flow: if, for, while, enumerate, zip",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Functions: def, return, default arguments",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Create the GitHub repo for the Phase 1 project and choose your public API",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: Arrays & Hashing",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "Write notes, log hours, set Confidence",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81e581f0ce0a6be9c0e8",
@@ -35,7 +82,54 @@
     "SQL",
     "Portfolio"
    ],
-   "notes": "Hours are logged in the weekly rows (Saturday builds)."
+   "notes": "Hours are logged in the weekly rows (Saturday builds).",
+   "checklist": [
+    {
+     "section": "Definition of done",
+     "text": "Incremental loads with a stored watermark",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Pagination, retries, rate limits, timeouts",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Idempotent upserts",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Pydantic validation + rejects table",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Structured logging + CLI",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "pytest suite with mocked API, Ruff, pre-commit",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "10 analytical SQL queries",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "README with architecture diagram",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Repo link added to Notes",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81a9b808d4f7a4c156c4",
@@ -52,7 +146,54 @@
     "Python",
     "DSA"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "*args/**kwargs, keyword-only args, scope",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Comprehensions, lambda, sorted with key",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "try/except/else/finally, custom exceptions",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "File I/O: CSV, JSON, pathlib, with statement",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Modules, packages, __main__ guard",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "datetime and time zones with zoneinfo",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Script that calls the API and saves raw JSON files by date",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: Arrays & Hashing",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "Write notes, log hours, set Confidence",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81b98da9e5229db7bca3",
@@ -69,7 +210,54 @@
     "Python",
     "DSA"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Classes, inheritance vs composition",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "dataclasses and Pydantic models",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Dunder methods and type hints",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "logging: levels, formatters, handlers",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Generators and iterators",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Context managers and decorators (write a retry decorator)",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Add Pydantic validation and structured logging to the ingestion script",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: Two Pointers",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "Write notes, log hours, set Confidence",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81c883d0c91dbe351d39",
@@ -87,7 +275,54 @@
     "File Formats",
     "DSA"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "NumPy arrays, vectorization, broadcasting",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "pandas: filter, groupby, merge, pivot, dtypes, memory",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "pandas rolling, shift, rank, cumsum",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Polars lazy frames and expressions",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "PyArrow and Parquet read/write",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "DuckDB SQL over DataFrames and Parquet",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Transform raw JSON into clean Parquet with Polars",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: Sliding Window",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "Write notes, log hours, set Confidence",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea819db1f4cf76f3e62b54",
@@ -101,7 +336,24 @@
    "actual": null,
    "confidence": null,
    "skills": [],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": null,
+     "text": "Update skill percentages on the roadmap page",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Compare done vs planned weeks; adjust dates if behind",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Fill the check-in template in the Learning Log",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81bbae32ff3dc4fc4cf0",
@@ -119,7 +371,54 @@
     "SQL",
     "DSA"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "HTTP methods, status codes, headers",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "requests/httpx with API keys and bearer tokens; OAuth concept",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Pagination: page, offset, cursor",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Retries with backoff, rate limits, timeouts",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Secrets via env vars and .env (never commit them)",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "psycopg + SQLAlchemy, bulk inserts, INSERT ... ON CONFLICT upserts",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Load into Postgres incrementally with a stored watermark and idempotent upserts",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: Stack",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "Write notes, log hours, set Confidence",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea8154958ef9528e0d432e",
@@ -136,7 +435,54 @@
     "Python",
     "DSA"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "src layout and pyproject.toml",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "pytest: fixtures, parametrize, mocking",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Ruff + pre-commit hooks",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "CLI with Typer or argparse",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Config files + env overrides",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Idempotency patterns",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Add tests with mocked API, CLI, and pre-commit to the project",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: Binary Search",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "Write notes, log hours, set Confidence",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea8189bde0e5710a1ff894",
@@ -154,7 +500,49 @@
     "SQL",
     "DSA"
    ],
-   "notes": "Holiday week — lighter target."
+   "notes": "Holiday week — lighter target.",
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Threads vs processes vs asyncio (I/O- vs CPU-bound)",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "ThreadPoolExecutor; asyncio + httpx for parallel calls",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Profiling with cProfile",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Window functions deep dive: frames, ROWS vs RANGE",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Gaps-and-islands, sessionization, dedup patterns",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Async version of the fetcher; compare timings in README",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: Linked List",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "3 DataLemur medium SQL problems",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81078c04ceee4ad72e57",
@@ -171,7 +559,49 @@
     "SQL",
     "DSA"
    ],
-   "notes": "Holiday week — lighter target."
+   "notes": "Holiday week — lighter target.",
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Recursive CTEs and date spines",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Pivot/unpivot, GROUPING SETS, ROLLUP, CUBE",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "EXPLAIN ANALYZE; nested loop vs hash vs merge joins",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Index types, sargable predicates",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "JSON/array functions, UNNEST/FLATTEN, MERGE",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Write the 10 analytical SQL queries + finish README with architecture diagram",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: Trees",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "3 DataLemur hard SQL problems",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81a194cadc29b48ebc8d",
@@ -189,7 +619,34 @@
     "SQL",
     "DSA"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": null,
+     "text": "From a blank file: read a 1 GB CSV in chunks, clean it, write Parquet",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Explain generators, decorators, context managers out loud",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "3 DataLemur hard SQL problems, under 20 min each",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Read an EXPLAIN plan and explain why a query is slow",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "25+ NeetCode problems done",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81e28519dfbfaa5c1f6e",
@@ -207,7 +664,54 @@
     "SQL",
     "DSA"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "OLTP vs OLAP, normalization vs denormalization",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Declaring grain",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Fact types: transactional, periodic snapshot, accumulating, factless",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Dimension types: conformed, junk, degenerate, role-playing, bridge",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "SCD Types 0–6; implement Type 2 by hand in SQL",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Star vs snowflake",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Set up MinIO + DuckDB; design the gold star schema on paper",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: Trees",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "Write notes, log hours, set Confidence",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81a99d3afe77d6cb0618",
@@ -226,7 +730,54 @@
     "NoSQL",
     "Portfolio"
    ],
-   "notes": "Hours are logged in the weekly rows (Saturday builds)."
+   "notes": "Hours are logged in the weekly rows (Saturday builds).",
+   "checklist": [
+    {
+     "section": "Definition of done",
+     "text": "MinIO or local object storage",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Bronze / silver (Iceberg or Delta) / gold star schema",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "SCD Type 2 dimension via MERGE",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Partitioning benchmark with results table",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Time travel + schema evolution demo",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Compaction job fixing small files",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Redis cache or MongoDB raw store",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "README with data model diagram",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Repo link added to Notes",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81af87e9c3d3f1daa7ae",
@@ -240,7 +791,24 @@
    "actual": null,
    "confidence": null,
    "skills": [],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": null,
+     "text": "Update skill percentages on the roadmap page",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Compare done vs planned weeks; adjust dates if behind",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Fill the check-in template in the Learning Log",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81c3a6bfc4e43dddba8b",
@@ -257,7 +825,54 @@
     "Data Modeling",
     "DSA"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Medallion: bronze / silver / gold",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "One Big Table and wide tables",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Data Vault 2.0 basics",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Activity schema and event modeling",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Modeling for ML: entity-keyed features, point-in-time snapshots",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Modeling for LLMs: documents, chunks, metadata",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Build bronze (raw JSON Lines) and silver layers",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: Tries",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "Write notes, log hours, set Confidence",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea816fad2fd448a7217a7d",
@@ -274,7 +889,54 @@
     "File Formats",
     "DSA"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Row vs columnar storage",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Parquet: row groups, pages, encodings, statistics, predicate pushdown",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Avro and schema evolution rules",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "ORC, JSON Lines",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Snappy vs ZSTD vs GZIP",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Apache Arrow and zero-copy",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Inspect your Parquet files with pyarrow metadata; experiment with row group sizes",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: Heap / Priority Queue",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "Write notes, log hours, set Confidence",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81d0aee0db7ea156db2d",
@@ -291,7 +953,44 @@
     "Lakehouse",
     "DSA"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Object storage concepts and cost model",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Why plain Parquet lakes fail",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Delta, Iceberg, Hudi: logs/metadata, ACID, snapshots",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Time travel, schema evolution, MERGE, deletion vectors",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Catalogs: Hive, Glue, Unity, Iceberg REST",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Convert silver to Iceberg or Delta tables; demo time travel",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: Backtracking",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea817c9d4bc74edfd2e747",
@@ -309,7 +1008,44 @@
     "SQL",
     "DSA"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Partition keys, cardinality, pruning, hidden partitioning",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Z-order, liquid clustering, Snowflake clustering keys",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Bucketing",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "B-tree, hash, GIN, BRIN, covering indexes",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Small files, compaction, VACUUM, snapshot expiry",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Partitioning benchmark: 3 layouts, table of query time + files scanned",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: Graphs",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81d09d83c5a9e496dc47",
@@ -323,7 +1059,24 @@
    "actual": null,
    "confidence": null,
    "skills": [],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": null,
+     "text": "Update skill percentages on the roadmap page",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Compare done vs planned weeks; adjust dates if behind",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Fill the check-in template in the Learning Log",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81159ffed6dc4c192cd4",
@@ -340,7 +1093,49 @@
     "NoSQL",
     "DSA"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "CAP theorem, consistency models",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "MongoDB: embedding vs referencing, aggregation pipeline",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Redis caching + DynamoDB access-pattern design",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Cassandra query-first modeling",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Elasticsearch/OpenSearch + BM25",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Neo4j intro; decision guide for picking a store",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "SCD2 dimension with MERGE, compaction job, Redis or MongoDB add-on, README",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: Graphs",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81a080f3c127ede093a6",
@@ -358,7 +1153,34 @@
     "Lakehouse",
     "NoSQL"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": null,
+     "text": "Model a ride-sharing business in 30 min: grain, facts, dims, SCD choices",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Explain Parquet predicate pushdown and row group sizing",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Explain Delta vs Iceberg and how each gets ACID on object storage",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Propose partitioning/clustering fixes for a slow table",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Design a DynamoDB table for 3 access patterns",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea810ca238cbc141cdd1ad",
@@ -375,7 +1197,54 @@
     "System Design",
     "DSA"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "ETL vs ELT",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Batch vs micro-batch vs streaming; Lambda vs Kappa",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Incremental loads, watermarks, backfills",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Idempotency and deterministic outputs",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Late-arriving data and dimensions",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Delivery semantics; dead-letter queues",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Docker Compose skeleton: Postgres, Kafka, MinIO, Airflow, Spark",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: 1-D Dynamic Programming",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr system design: DDIA ch. 5 (Replication)",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81fe9b1bc7809b535313",
@@ -395,7 +1264,54 @@
     "Kafka/Streaming",
     "Portfolio"
    ],
-   "notes": "Hours are logged in the weekly rows (Saturday builds)."
+   "notes": "Hours are logged in the weekly rows (Saturday builds).",
+   "checklist": [
+    {
+     "section": "Definition of done",
+     "text": "Docker Compose: Postgres, Kafka, Debezium, Spark, Airflow, MinIO",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Data generator with inserts/updates/deletes",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "CDC events in bronze within a minute, exactly-once",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Airflow: ingest → dbt build → tests → alert on failure",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "dbt: incremental models, SCD2 snapshot, 20+ tests",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Backfill one month with no duplicates",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Dashboard on gold",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "README with architecture + failure scenarios",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Repo link added to Notes",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea816d9433e6684febb19e",
@@ -413,7 +1329,49 @@
     "DSA",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Driver, executors, jobs → stages → tasks",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Lazy evaluation, transformations vs actions",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Narrow vs wide transformations; the shuffle",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "repartition vs coalesce; shuffle partitions",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Read the Spark UI for every job (Databricks Free Edition)",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Data generator writing inserts/updates/deletes to Postgres",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: 1-D DP",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr system design: DDIA ch. 6 (Partitioning)",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81648e4ecc60e8b261e6",
@@ -432,7 +1390,54 @@
     "DSA",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Broadcast vs sort-merge vs shuffle hash joins",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Skew: detect in UI, salting, AQE",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "cache/persist; UDFs vs built-ins vs pandas UDFs",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Spark SQL, Catalyst, physical plans",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "MERGE INTO Delta/Iceberg",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Structured Streaming: triggers, checkpoints, output modes",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Spark batch job: silver tables from bronze with MERGE",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: 2-D DP",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr system design: DDIA ch. 7 (Transactions)",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea814c9554da8d07ba7362",
@@ -450,7 +1455,54 @@
     "DSA",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "DAGs, operators, sensors, TaskFlow API",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Data intervals, catchup, backfill",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Retries, timeouts, SLAs, failure callbacks",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Connections, variables, XComs (small data only)",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Dynamic task mapping; datasets/assets scheduling",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Dagster assets comparison",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Airflow DAG running the Phase 1 ingestion tool with alerts on failure",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: Intervals",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr system design: DDIA ch. 10 (Batch processing)",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81cfa4d4d65ebc58dd87",
@@ -464,7 +1516,24 @@
    "actual": null,
    "confidence": null,
    "skills": [],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": null,
+     "text": "Update skill percentages on the roadmap page",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Compare done vs planned weeks; adjust dates if behind",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Fill the check-in template in the Learning Log",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea8149b895d4b671437473",
@@ -483,7 +1552,49 @@
     "DSA",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Sources, staging, intermediate, marts",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Materializations incl. incremental strategies + snapshots",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Generic, singular, and unit tests; dbt_utils, dbt-expectations",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Jinja, macros, targets/environments",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Docs, exposures, semantic layer intro",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "dbt project: incremental models, an SCD2 snapshot, 20+ tests; Airflow runs dbt build",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: Greedy",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr system design: DDIA ch. 11 (Stream processing), first half",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea816e930ee309d388d3d5",
@@ -501,7 +1612,49 @@
     "DSA",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Topics, partitions, offsets, replication, retention, compaction",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Producers: keys, acks, idempotence",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Consumers: groups, rebalancing, commits, lag",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Schema Registry with Avro; compatibility modes",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Kafka Connect source/sink",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Debezium CDC from Postgres into Kafka topics",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: mixed review",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr system design: DDIA ch. 11, second half",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea8160917ac68c229fee6e",
@@ -520,7 +1673,49 @@
     "DSA",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Debezium change event structure, Postgres WAL",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Spark Structured Streaming from Kafka",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Event time, windowing, watermarks, stateful aggregation",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Exactly-once sinks with checkpoints",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Flink intro: why teams pick it",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Streaming job: Kafka → bronze Delta/Iceberg; kill it mid-run and prove recovery",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: mixed review",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr system design: practice design — CDC to lakehouse",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea8183aa72e44b2ff5e23a",
@@ -539,7 +1734,39 @@
     "DSA",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Data contracts: schema, semantics, SLAs",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Schema evolution across Kafka → lake → dbt",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Great Expectations basics; fail vs warn",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Backfill demo, dashboard on gold, README with failure scenarios",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: mixed review",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr system design: DDIA ch. 12 (Future of data systems)",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81979b8cde5e7efed909",
@@ -558,7 +1785,34 @@
     "dbt",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": null,
+     "text": "Diagnose and fix a skewed Spark job from the Spark UI",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Explain Kafka ordering guarantees and what breaks them",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Explain your pipeline's end-to-end idempotency",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Write an incremental dbt model handling late data from scratch",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Whiteboard a CDC pipeline from OLTP to lakehouse",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea8146bea2fe42bf6cd9e7",
@@ -572,7 +1826,24 @@
    "actual": null,
    "confidence": null,
    "skills": [],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": null,
+     "text": "Update skill percentages on the roadmap page",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Compare done vs planned weeks; adjust dates if behind",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Fill the check-in template in the Learning Log",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81868300f4915fadb03f",
@@ -590,7 +1861,54 @@
     "DSA",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Set a $20 billing alarm first",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Regions, AZs, shared responsibility",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "IAM: users, roles, policies, least privilege",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "VPC basics: subnets, security groups, NAT, endpoints",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "S3: storage classes, lifecycle, versioning, encryption, bucket policies",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "AWS CLI + boto3",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "S3 lake buckets + IAM roles (console is fine this week; Terraform later)",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: mixed review",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr system design: Alex Xu Vol. 1 ch. 1–2",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea8185b865f8d59afe4d3c",
@@ -610,7 +1928,54 @@
     "CI/CD",
     "Portfolio"
    ],
-   "notes": "Hours are logged in the weekly rows (Saturday builds)."
+   "notes": "Hours are logged in the weekly rows (Saturday builds).",
+   "checklist": [
+    {
+     "section": "Definition of done",
+     "text": "Terraform: S3 layers, IAM, Glue, Athena, ECR",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Ingestion on ECS Fargate or Lambda",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Spark on EMR Serverless writing Iceberg",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Orchestration (Airflow on EC2/MWAA or Step Functions)",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "dbt on Athena",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "GitHub Actions with OIDC",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Failure alarm + billing alarm",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "README with diagram, monthly cost, teardown",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Repo link added to Notes",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81c9a6e6ec8c8c266d91",
@@ -628,7 +1993,54 @@
     "DSA",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Glue catalog, crawlers, jobs",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Athena + partition projection",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Lambda, Step Functions",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "EMR / EMR Serverless",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Kinesis vs MSK; Redshift basics",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Secrets Manager, KMS, CloudWatch, Lake Formation",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Run a Spark job on EMR Serverless writing Iceberg; query it in Athena",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: mixed review",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr system design: practice design — clickstream pipeline",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81ebaaede86dffe6d0ef",
@@ -646,7 +2058,49 @@
     "DSA",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Images, containers, layers, caching",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Dockerfiles: multi-stage, slim, non-root",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Volumes, networks, env vars",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Compose for multi-service stacks",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Push to ECR",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Containerize the ingestion tool and run it on ECS Fargate on a schedule",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: mixed review",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr system design: Alex Xu Vol. 1 ch. 3–4",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81bd8f19e9f6cfc07aaa",
@@ -665,7 +2119,49 @@
     "DSA",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Pods, deployments, services, jobs, cronjobs, configmaps, secrets",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "kubectl, Helm intro, EKS overview",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Airflow/Spark on Kubernetes (concept)",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Terraform: providers, resources, variables, outputs",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Remote state on S3 with locking; modules",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Rewrite all AWS resources as Terraform; destroy and recreate in one command",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: mixed review",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr system design: practice design — vehicle telemetry ingestion",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea816a8a34e2698685b801",
@@ -679,7 +2175,24 @@
    "actual": null,
    "confidence": null,
    "skills": [],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": null,
+     "text": "Update skill percentages on the roadmap page",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Compare done vs planned weeks; adjust dates if behind",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Fill the check-in template in the Learning Log",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea811b8d42f1da3fb7f63b",
@@ -698,7 +2211,49 @@
     "DSA",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "GitHub Actions workflows, jobs, secrets",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "OIDC to AWS (no long-lived keys)",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Lint + tests on PR; build/push image on merge",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "terraform plan on PR, apply on merge",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "dbt slim CI with state:modified+",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Full CI/CD pipeline for the platform repo",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: mixed review",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr system design: Alex Xu Vol. 1 ch. 5–6",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81688d39c8f223882515",
@@ -716,7 +2271,44 @@
     "DSA",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Serverless vs provisioned; spot; autoscaling",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Storage cost tuning",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Encryption at rest/in transit; private networking",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Azure/GCP mapping table",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "CloudWatch failure alarm, monthly cost estimate, README + teardown command",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr: AWS DEA practice exam",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr system design: practice design — CDC lakehouse for 200 tables",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea812aa382d67358095a82",
@@ -734,7 +2326,29 @@
     "Docker/K8s",
     "Terraform"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": null,
+     "text": "Write a least-privilege IAM policy for one S3 prefix",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Explain security group vs IAM role to a non-engineer",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Dockerize any Python project in under 15 minutes",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Stand up and tear down the platform with two commands",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81eea3d8e962e3b3ca84",
@@ -752,7 +2366,49 @@
     "DSA",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Mean, median, variance, std dev, percentiles",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Normal, binomial, Poisson, long-tail distributions",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Sampling, bias, Central Limit Theorem",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Confidence intervals, hypothesis tests, p-values",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "A/B testing basics; correlation vs causation",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Pick the ML dataset; compute descriptive stats + distributions in a notebook",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: mixed review",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr system design: Alex Xu Vol. 1 ch. 7–8",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea8196970fea491418d8c2",
@@ -768,7 +2424,29 @@
    "skills": [
     "AWS"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": null,
+     "text": "Book the exam by mid-March",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Take 2 full practice exams, score 80%+",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Review weak domains",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Sit the exam",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea815eb667f843455010f4",
@@ -786,7 +2464,49 @@
     "MLOps",
     "Portfolio"
    ],
-   "notes": "Hours are logged in the weekly rows (Saturday builds)."
+   "notes": "Hours are logged in the weekly rows (Saturday builds).",
+   "checklist": [
+    {
+     "section": "Definition of done",
+     "text": "Time-windowed feature pipeline",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Point-in-time correct training set (leakage proof)",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Reproducible versioned training data",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "MLflow comparison of 3 models; best registered",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Batch scoring DAG + FastAPI endpoint, both in Docker",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Drift report + documented retraining trigger",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "README with diagram",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Repo link added to Notes",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81e28646ce0265c7ee5a",
@@ -805,7 +2525,49 @@
     "DSA",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Vectors, matrices, matrix multiplication (3Blue1Brown)",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Dot product, norms, cosine similarity — compute in NumPy",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "PCA intuition",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Conditional probability, Bayes' rule",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Gradient descent intuition",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Feature pipeline v1: time-windowed aggregations in Spark or dbt",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: mixed review",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr system design: Alex Xu Vol. 1 ch. 9–10",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81f1906bec4c5e450a21",
@@ -819,7 +2581,24 @@
    "actual": null,
    "confidence": null,
    "skills": [],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": null,
+     "text": "Update skill percentages on the roadmap page",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Compare done vs planned weeks; adjust dates if behind",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Fill the check-in template in the Learning Log",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea816f9823e3c43a07d5c8",
@@ -837,7 +2616,54 @@
     "DSA",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Supervised vs unsupervised",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Linear/logistic regression, trees, random forests, XGBoost",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "k-means, anomaly detection basics",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Splits, cross-validation, time-based splits",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Overfitting, bias-variance, regularization",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Precision, recall, F1, ROC-AUC, RMSE; data leakage; class imbalance",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Train 3 models; introduce leakage on purpose and document what happens",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: mixed review",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr system design: ML System Design Interview ch. 1",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea8146bdb5c9002cded332",
@@ -856,7 +2682,54 @@
     "DSA",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Neurons, layers, activations, backprop (concept)",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Embeddings",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Attention and transformers at a high level",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Pretraining vs fine-tuning vs inference",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "PyTorch tensors, Dataset, DataLoader",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "GPUs and data loading bottlenecks",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Set up Feast: offline Parquet store + online Redis store",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: mixed review",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr: Karpathy Zero to Hero video 1",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81d4a84bcfe76b112e05",
@@ -876,7 +2749,54 @@
     "DSA",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Feature engineering at scale",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Feast: feature views, materialization, offline vs online",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Point-in-time correct joins — by hand in SQL, then with Feast",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Training-serving skew",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Dataset versioning: time travel, DVC, lakeFS",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Labeling pipelines (Label Studio)",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Point-in-time correct training dataset; prove no leakage in README",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: mixed review",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr: Designing ML Systems (Huyen) ch. 4–5",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81fb861bc3d08791c3dc",
@@ -895,7 +2815,54 @@
     "DSA",
     "System Design"
    ],
-   "notes": "July 4 holiday week."
+   "notes": "July 4 holiday week.",
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "ML lifecycle and data engineer ownership",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "MLflow tracking: params, metrics, artifacts",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Model registry: versions, aliases",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Batch vs real-time inference",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "FastAPI, BentoML, managed endpoints",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Packaging models in Docker",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "MLflow experiments + registry; FastAPI endpoint reading online features",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: mixed review",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr: Designing ML Systems ch. 7",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea814cb286de00577a80f1",
@@ -914,7 +2881,44 @@
     "DSA",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Data, concept, and prediction drift; Evidently",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Retraining triggers and pipelines",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Ray and Dask basics",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Sharding and streaming large training datasets",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Batch scoring DAG + weekly drift report",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: mixed review",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr system design: practice design — real-time fraud feature pipeline",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea818fb383e5c537b8a639",
@@ -928,7 +2932,24 @@
    "actual": null,
    "confidence": null,
    "skills": [],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": null,
+     "text": "Update skill percentages on the roadmap page",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Compare done vs planned weeks; adjust dates if behind",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Fill the check-in template in the Learning Log",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea812ab2c6c8cc96a7536c",
@@ -946,7 +2967,34 @@
     "Portfolio",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "This week",
+     "text": "Close gaps in the P5 project definition of done",
+     "done": false
+    },
+    {
+     "section": "This week",
+     "text": "Dockerize batch + real-time paths",
+     "done": false
+    },
+    {
+     "section": "This week",
+     "text": "README with architecture diagram and leakage proof",
+     "done": false
+    },
+    {
+     "section": "This week",
+     "text": "Run the P5 checkpoint",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr system design: practice design — recommendation data platform",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81639fdedc622c3566e6",
@@ -965,7 +3013,29 @@
     "MLOps",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": null,
+     "text": "Compute cosine similarity by hand for two small vectors",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Explain precision vs recall with a real example",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Explain point-in-time correctness and training-serving skew without notes",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Whiteboard a feature platform for training + real-time inference",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81e9b91acc377b4b4b03",
@@ -984,7 +3054,54 @@
     "DSA",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "First: check which tools and models are current; update the Phase 6 guide",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Tokens, context windows, pricing",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Temperature, top-p, max tokens",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Closed vs open-weight models",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "API calls, system prompts, streaming",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Prompt engineering; structured outputs with Pydantic; tool use",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Pick the document corpus (e.g., NHTSA recalls/complaints); download a sample",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: mixed review",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr: AI Engineering (Huyen) ch. 1–2",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea812b896de0b91998dcab",
@@ -1004,7 +3121,59 @@
     "LLM",
     "Portfolio"
    ],
-   "notes": "Hours are logged in the weekly rows (Saturday builds)."
+   "notes": "Hours are logged in the weekly rows (Saturday builds).",
+   "checklist": [
+    {
+     "section": "Definition of done",
+     "text": "Incremental ingestion handling new/updated/deleted docs",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Two chunking strategies compared with retrieval metrics",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Hybrid search + reranking with measured lift",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Cited answers; \"I don't know\" on weak retrieval",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "100+ question eval set in CI",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Tracing with latency and cost per query",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Batch LLM enrichment job",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "MCP server over enriched tables",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "FastAPI + UI in Docker",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Repo link added to Notes",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea8165b877d8a2eb025701",
@@ -1023,7 +3192,54 @@
     "Governance",
     "DSA"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Parsing PDFs, HTML, Office files",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Layout-aware parsing and tables (Docling, Unstructured)",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "OCR, vision captioning, Whisper transcription",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Cleaning, normalization, language detection",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Exact + near-duplicate dedup (MinHash)",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "PII scrubbing; scaling with Spark/Ray",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Airflow ingest → parse → clean → documents table with metadata",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: mixed review",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr: AI Engineering ch. 3",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81b391c6e745fa1130dd",
@@ -1041,7 +3257,54 @@
     "LLM",
     "DSA"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Choosing embedding models; dimensions; normalization",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Cosine vs dot vs Euclidean",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "HNSW, IVF, product quantization; recall vs speed",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "pgvector first, then Qdrant",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Metadata filtering, multi-tenancy",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Hybrid BM25 + vector, reciprocal rank fusion",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Incremental embedding pipelines, deletes, index versioning",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Chunk + embed + load into pgvector with incremental updates",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: mixed review",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81f6864ee1e31bcbf7ec",
@@ -1055,7 +3318,24 @@
    "actual": null,
    "confidence": null,
    "skills": [],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": null,
+     "text": "Update skill percentages on the roadmap page",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Compare done vs planned weeks; adjust dates if behind",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Fill the check-in template in the Learning Log",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81549e62f487ab4093a4",
@@ -1075,7 +3355,59 @@
     "DSA",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "RAG end-to-end architecture",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Chunking: fixed, recursive, semantic, structure-aware",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Contextual retrieval",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Reranking with cross-encoders",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Query rewriting, multi-query, HyDE",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Citations, \"I don't know\" handling; GraphRAG intro",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Build one RAG with no framework, then try LlamaIndex",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Hybrid retrieval + reranking + cited answers via FastAPI",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: mixed review",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr: AI Engineering ch. 6 (RAG and agents)",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81f48819d568f4bed35a",
@@ -1094,7 +3426,54 @@
     "CI/CD",
     "DSA"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Golden eval datasets",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "recall@k, precision@k, MRR, nDCG",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Faithfulness, answer relevance, correctness",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "LLM-as-judge and calibrating it against human labels",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "RAGAS / DeepEval / pytest evals in CI",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Langfuse or Phoenix tracing: latency, cost, tokens",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "100+ question golden set; evals run in GitHub Actions; compare 2 chunking strategies",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: mixed review",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr: AI Engineering ch. 3–4 (evaluation)",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea813987c0c5c599136627",
@@ -1114,7 +3493,54 @@
     "DSA",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Batch classification, extraction, enrichment at scale",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Batch APIs, concurrency, retries, idempotent reprocessing",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Prompt caching, response caching, model routing",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Cost tracking and token budgets",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Databricks AI Functions / Snowflake Cortex",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Text-to-SQL + semantic layer",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Batch job classifying every complaint by component and severity; cost dashboard",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: mixed review",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr system design: practice design — LLM enrichment of 50M tickets",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea8116bd50c864617ddc5c",
@@ -1133,7 +3559,54 @@
     "DSA",
     "System Design"
    ],
-   "notes": "Labor Day weekend."
+   "notes": "Labor Day weekend.",
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Agents: tool loops, planning, memory; when not to use one",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Model Context Protocol (MCP) servers",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Fine-tuning data: formats, filtering, dedup, decontamination",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Synthetic data generation + validation",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "LoRA concept",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Prompt injection, exfiltration via tools, PII leakage",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "MCP server exposing the enriched tables safely",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: mixed review",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr: AI Engineering ch. 7–8 (fine-tuning, dataset engineering)",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81ea936dc63645c42d77",
@@ -1147,7 +3620,24 @@
    "actual": null,
    "confidence": null,
    "skills": [],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": null,
+     "text": "Update skill percentages on the roadmap page",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Compare done vs planned weeks; adjust dates if behind",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Fill the check-in template in the Learning Log",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea8125970ed5997f22a974",
@@ -1165,7 +3655,34 @@
     "Portfolio",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "This week",
+     "text": "Close gaps in the P6 project definition of done",
+     "done": false
+    },
+    {
+     "section": "This week",
+     "text": "Simple UI (Streamlit) + everything in Docker",
+     "done": false
+    },
+    {
+     "section": "This week",
+     "text": "README: architecture, eval results, cost per query",
+     "done": false
+    },
+    {
+     "section": "This week",
+     "text": "Run the P6 checkpoint",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr system design: practice design — enterprise RAG over 10M docs",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81708169dcdeb29de3e3",
@@ -1184,7 +3701,34 @@
     "Evals",
     "LLM"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": null,
+     "text": "Explain HNSW and the recall/latency trade-off",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Diagnose a bad RAG answer: parsing, chunking, retrieval, or generation?",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Design zero-downtime re-embedding of 50M chunks",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Estimate monthly cost of LLM enrichment over 10M rows",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Explain prompt injection + two mitigations",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea811f9358c0e73c7f0136",
@@ -1203,7 +3747,54 @@
     "DSA",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Quality dimensions",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Great Expectations and Soda",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Advanced dbt tests: thresholds, severity, store failures",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Write-Audit-Publish with Iceberg branches or Delta staging",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Circuit breakers; anomaly detection on metrics",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Data contracts enforced in CI",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "WAP + quality checks + circuit breaker on the Phase 3 pipeline",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: mixed review",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr: Data Quality Fundamentals ch. 1–3",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea818fa512fd80c4e612d5",
@@ -1221,7 +3812,44 @@
     "Governance",
     "Portfolio"
    ],
-   "notes": "Hours are logged in the weekly rows (Saturday builds)."
+   "notes": "Hours are logged in the weekly rows (Saturday builds).",
+   "checklist": [
+    {
+     "section": "Definition of done",
+     "text": "WAP on the Phase 3 pipeline",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Quality checks + Slack alerts + circuit breaker",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "OpenLineage lineage across ingestion → dbt → RAG",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Presidio PII scrubbing before embedding",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Document-level access control in RAG",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Datasheet + model card",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Data SLA + incident runbook",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81de989edd653c72da76",
@@ -1240,7 +3868,49 @@
     "DSA",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Five pillars: freshness, volume, schema, distribution, lineage",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "OpenLineage from Airflow, Spark, dbt; Marquez",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "DataHub/OpenMetadata, Unity Catalog",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Data SLAs/SLOs, runbooks, postmortems",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Actionable alerting",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Lineage visible end-to-end: ingestion → dbt → RAG index; Slack alerts",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: mixed review",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr: write a one-page data SLA + incident runbook",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81489522de2564c0543c",
@@ -1258,7 +3928,44 @@
     "DSA",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "RBAC vs ABAC, row-level security, column masking, tag policies",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "PII discovery with Presidio; tokenization vs masking vs hashing",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "GDPR/CCPA: right to be forgotten in a lakehouse",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Retention, encryption, audit logs",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Presidio PII scrubbing before embedding; document-level access control in RAG",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: mixed review",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr system design: design deletion of one customer across lake, features, embeddings",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea817b86dcd8f05c977e26",
@@ -1276,7 +3983,44 @@
     "LLM",
     "DSA"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Lineage from source doc → chunk → embedding → answer",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Datasheets for datasets, model cards",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Bias and representativeness checks",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Data licensing and consent",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "EU AI Act risk tiers; NIST AI RMF",
+     "done": false
+    },
+    {
+     "section": "Build (Saturday)",
+     "text": "Datasheet for the RAG corpus + model card for the P5 model",
+     "done": false
+    },
+    {
+     "section": "Practice (Sunday)",
+     "text": "1 hr NeetCode: mixed review",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea815da5bee56a7febe251",
@@ -1293,7 +4037,24 @@
     "Data Quality",
     "Governance"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": null,
+     "text": "Explain WAP and when to use it",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Walk through deleting one customer from lakehouse, embeddings, and features",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Design an alerting strategy that avoids alert fatigue",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea818a8181c00302b03c83",
@@ -1307,7 +4068,24 @@
    "actual": null,
    "confidence": null,
    "skills": [],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": null,
+     "text": "Update skill percentages on the roadmap page",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Compare done vs planned weeks; adjust dates if behind",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Fill the check-in template in the Learning Log",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81259217ef0f9bb606b7",
@@ -1327,7 +4105,39 @@
     "MLOps",
     "Kafka/Streaming"
    ],
-   "notes": "Hours are logged in the weekly rows."
+   "notes": "Hours are logged in the weekly rows.",
+   "checklist": [
+    {
+     "section": "Definition of done",
+     "text": "Streaming telemetry simulator → Kafka → lakehouse",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Feature pipeline + anomaly/failure model",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "RAG assistant over maintenance/recall docs that queries telemetry via MCP",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Quality, lineage, PII controls throughout",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Architecture diagram, demo video, write-up",
+     "done": false
+    },
+    {
+     "section": "Definition of done",
+     "text": "Synthetic or public data only",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81d1b195eb36eb6c9eb7",
@@ -1344,7 +4154,44 @@
     "System Design",
     "Interview"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "Learn",
+     "text": "Repeatable framework: requirements → estimates → ingest → store → process → serve → monitor → cost",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Back-of-envelope math drills",
+     "done": false
+    },
+    {
+     "section": "Learn",
+     "text": "Trade-off vocabulary: latency/throughput, consistency/availability, build/buy",
+     "done": false
+    },
+    {
+     "section": "Practice designs (45 min each, out loud)",
+     "text": "Clickstream analytics for 1B events/day",
+     "done": false
+    },
+    {
+     "section": "Practice designs (45 min each, out loud)",
+     "text": "Telemetry for 1M connected vehicles with anomaly alerts",
+     "done": false
+    },
+    {
+     "section": "Practice designs (45 min each, out loud)",
+     "text": "Training dataset platform for an LLM fine-tune",
+     "done": false
+    },
+    {
+     "section": "Practice designs (45 min each, out loud)",
+     "text": "Enterprise RAG over 10M docs with access control",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea815d9a3dc2690027ef81",
@@ -1361,7 +4208,29 @@
     "Portfolio",
     "System Design"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "This week",
+     "text": "Connect streaming telemetry → lakehouse → features → model → RAG assistant + MCP",
+     "done": false
+    },
+    {
+     "section": "This week",
+     "text": "Use synthetic or public data only",
+     "done": false
+    },
+    {
+     "section": "This week",
+     "text": "One unified architecture diagram",
+     "done": false
+    },
+    {
+     "section": "This week",
+     "text": "Record a 3–5 minute demo video",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea817aac8de8e95a7af43e",
@@ -1378,7 +4247,34 @@
     "Portfolio",
     "Interview"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "This week",
+     "text": "Pin 4–5 repos; every README has problem, diagram, tech, results, how to run",
+     "done": false
+    },
+    {
+     "section": "This week",
+     "text": "Rewrite resume around impact: scale, latency, cost, quality",
+     "done": false
+    },
+    {
+     "section": "This week",
+     "text": "Update LinkedIn headline and About to AI Data Engineer",
+     "done": false
+    },
+    {
+     "section": "This week",
+     "text": "Publish 2 blog posts about your projects",
+     "done": false
+    },
+    {
+     "section": "This week",
+     "text": "Write 8 STAR stories",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81f38609c2070301bb73",
@@ -1398,7 +4294,39 @@
     "System Design",
     "DSA"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": "This week",
+     "text": "Timed SQL: 5 hard problems",
+     "done": false
+    },
+    {
+     "section": "This week",
+     "text": "Timed Python: 5 NeetCode mediums + data manipulation tasks",
+     "done": false
+    },
+    {
+     "section": "This week",
+     "text": "Data modeling: 2 businesses in 30 min each",
+     "done": false
+    },
+    {
+     "section": "This week",
+     "text": "2 system design mocks (Pramp, Exponent, or a peer)",
+     "done": false
+    },
+    {
+     "section": "This week",
+     "text": "1 ML/AI system design mock",
+     "done": false
+    },
+    {
+     "section": "This week",
+     "text": "Behavioral mock using STAR stories",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81e089b7f1c09cdec9f1",
@@ -1416,7 +4344,29 @@
     "Interview",
     "Portfolio"
    ],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": null,
+     "text": "Design any practice system in 45 minutes, out loud, with trade-offs",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Demo the capstone in 5 minutes to a non-technical person",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Pass 3 mock interviews in a row",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Re-rate yourself on the roadmap page — every row at or above target",
+     "done": false
+    }
+   ]
   },
   {
    "id": "3f093ebae4ea81de8e3ce0cbfdb84642",
@@ -1430,7 +4380,24 @@
    "actual": null,
    "confidence": null,
    "skills": [],
-   "notes": null
+   "notes": null,
+   "checklist": [
+    {
+     "section": null,
+     "text": "Final skill re-rating",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "Total hours logged vs planned",
+     "done": false
+    },
+    {
+     "section": null,
+     "text": "What worked, what didn't — plan the next 12 months",
+     "done": false
+    }
+   ]
   }
  ],
  "skills": [
@@ -1549,5 +4516,5 @@
    "covered": "Used inside projects only"
   }
  ],
- "synced_at": "2026-11-06T21:52:48Z"
+ "synced_at": "2026-11-06T22:00:54Z"
 }
